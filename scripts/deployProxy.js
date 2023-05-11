@@ -3,7 +3,7 @@
 
   const main = async() => {
 
-    const contractName = "Deposit";
+    const contractName = "BOIL";
     
     const contractFactory = await ethers.getContractFactory(contractName);
     

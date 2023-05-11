@@ -28,6 +28,7 @@ const AVALANCHE_RPC_URL = process.env.AVALANCHE_RPC_URL;
  * @dev Get the testnet RPC urls.
  */
 const GOERLI_RPC_URL  = process.env.GOERLI_RPC_URL;
+const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL;
 const BNBTEST_RPC_URL = process.env.BNBTEST_RPC_URL;
 const MUMBAI_RPC_URL  = process.env.MUMBAI_RPC_URL;
 const FUJI_RPC_URL    = process.env.FUJI_RPC_URL;
@@ -116,6 +117,12 @@ module.exports = {
     goerli: {
       url: GOERLI_RPC_URL,
       chainId: 5,
+      accounts: [PRIVATE_KEY]
+    },
+
+    sepolia: {
+      url: SEPOLIA_RPC_URL,
+      chainId: 11155111,
       accounts: [PRIVATE_KEY]
     },
 
