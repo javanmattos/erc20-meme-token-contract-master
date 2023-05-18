@@ -3,7 +3,7 @@ const { ethers } = require('hardhat');
 
 const main = async() => {
 
-  const contractName = "BOIL";
+  const contractName = "WDUMT1";
 
   const contractFactory = await ethers.getContractFactory(contractName);
 
