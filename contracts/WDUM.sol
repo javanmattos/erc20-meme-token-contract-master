@@ -9,7 +9,7 @@ import "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol";
 import "@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol";
 
 
-contract WDUMT1 is Ownable, IERC20 {
+contract WDUMT is Ownable, IERC20 {
   
     // Token name
     string private _name;
@@ -87,7 +87,7 @@ contract WDUMT1 is Ownable, IERC20 {
     constructor() {
 
         _name = "What Do You Meme Test 1";
-        _symbol = "$WDUMT1";
+        _symbol = "$WDUMT";
         _decimals = 18;
         _totalSupply = 1000000000 * 10 ** 18;
         _maxWalletSize = _totalSupply * 4 / 100;
