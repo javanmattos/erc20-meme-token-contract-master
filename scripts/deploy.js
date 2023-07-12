@@ -12,6 +12,7 @@ const main = async() => {
   await contractObject.deployed();
 
   console.log(`\nContract deployed to:\n${contractObject.address}`);
+  console.log("Contract information: ", contractName, contractFactory, contractObject);
 
 }
 
